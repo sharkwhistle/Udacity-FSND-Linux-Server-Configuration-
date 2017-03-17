@@ -10,9 +10,7 @@ ServerAlias: http://ec2-34-205-145-118.us-west-2.compute.amazonaws.com
 
 ## Server Instance setup using AWS Lightsail
 
-1. Set up an Ubuntu server instance in AWS Lightsail as per Udacity [instructions].
-
-[instructions] : https://classroom.udacity.com/nanodegrees/nd004/parts/00413454014/modules/357367901175462/lessons/3573679011239847/concepts/c4cbd3f2-9adb-45d4-8eaf-b5fc89cc606e#
+1. Set up an Ubuntu server instance in AWS Lightsail as per Udacity [instructions](https://classroom.udacity.com/nanodegrees/nd004/parts/00413454014/modules/357367901175462/lessons/3573679011239847/concepts/c4cbd3f2-9adb-45d4-8eaf-b5fc89cc606e#).
 
 ## Add new user with sudo privileges
 
@@ -432,14 +430,10 @@ credentials = oauth_flow.step2_exchange(code)
 
 ## Resources
 
-1. DigitalOcean article on deploying a [Flask] app on Ubuntu.
-2. Granting [sudo] privileges.
-3. [Idroot] article on ssh port configuration.
-4. Digital Ocean article on installing and using [postgresql]
-5. [Ubuntu] postgresql documentation.
-6. Fantastic walkthrough from [elnobun].
-[Flask] : https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
-[sudo] : https://www.digitalocean.com/community/tutorials/how-to-add-delete-and-grant-sudo-privileges-to-users-on-a-debian-vps
-[Idroot] : http://idroot.net/tutorials/how-to-change-ssh-port-in-ubuntu/
-[postgres] : https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
-[elnobun] : https://github.com/elnobun/Linux-Server-Configuration
+1. DigitalOcean article on deploying a [Flask](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps) app on Ubuntu.
+2. Granting [sudo](https://www.digitalocean.com/community/tutorials/how-to-add-delete-and-grant-sudo-privileges-to-users-on-a-debian-vps) privileges.
+3. [Idroot](http://idroot.net/tutorials/how-to-change-ssh-port-in-ubuntu/) article on ssh port configuration.
+4. Digital Ocean article on installing and using [postgresql](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04).
+5. [Ubuntu](https://help.ubuntu.com/community/PostgreSQL) postgresql documentation.
+6. Fantastic walkthrough from [elnobun](https://github.com/elnobun/Linux-Server-Configuration).
+

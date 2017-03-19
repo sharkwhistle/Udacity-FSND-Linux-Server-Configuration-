@@ -5,24 +5,24 @@ Installation of an Ubuntu server instance to host a Flask application.
 The application hosted on this intance is from the Udacity FSND Item Catalog project,
 and is a fulfillment of the larger FSND program.
 
-Public IP: http://34.205.145.118
-SSH Port: 2200
-ServerAlias: http://ec2-34-205-145-118.us-west-2.compute.amazonaws.com
+* Public IP: http://34.205.145.118
+* SSH Port: 2200
+* ServerAlias: http://ec2-34-205-145-118.us-west-2.compute.amazonaws.com
 
 ## Software installed
-finger: To display information about server users
-ntp: To synchronize time between servers
-apache2: Linux Web Server
-mod-wsgi: apache module for hosting python applications
-python-setuptools: For easily downloading, updating, developing python tools
-pip: Python package manager
-Flask: Python Web Development framework
-SQLAlchemy: SQL Object Relational mapper for python
-Postgresql: Object relational DBMS
-httplib2: HTTP client library for python
-requests: Another python HTTP library
-oauth2client: Authentication API for secure Facebook and Google Plus login.
-psychopg2: postgresql adapter for python
+* finger: To display information about server users
+* ntp: To synchronize time between servers
+* apache2: Linux Web Server
+* mod-wsgi: apache module for hosting python applications
+* python-setuptools: For easily downloading, updating, developing python tools
+* pip: Python package manager
+* Flask: Python Web Development framework
+* SQLAlchemy: SQL Object Relational mapper for python
+* Postgresql: Object relational DBMS
+* httplib2: HTTP client library for python
+* requests: Another python HTTP library
+* oauth2client: Authentication API for secure Facebook and Google Plus login.
+* psychopg2: postgresql adapter for python
 
 ## Configuration summary
 1. Setup virtual server instance with AWS Lightsail, connect via SSH

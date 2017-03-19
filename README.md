@@ -6,7 +6,39 @@ The application hosted on this intance is from the Udacity FSND Item Catalog pro
 and is a fulfillment of the larger FSND program.
 
 Public IP: http://34.205.145.118
+SSH Port: 2200
 ServerAlias: http://ec2-34-205-145-118.us-west-2.compute.amazonaws.com
+
+## Software installed
+finger: To display information about server users
+ntp: To synchronize time between servers
+apache2: Linux Web Server
+mod-wsgi: apache module for hosting python applications
+python-setuptools: For easily downloading, updating, developing python tools
+pip: Python package manager
+Flask: Python Web Development framework
+SQLAlchemy: SQL Object Relational mapper for python
+Postgresql: Object relational DBMS
+httplib2: HTTP client library for python
+requests: Another python HTTP library
+oauth2client: Authentication API for secure Facebook and Google Plus login.
+psychopg2: postgresql adapter for python
+
+## Configuration summary
+1. Setup virtual server instance with AWS Lightsail, connect via SSH
+2. Added user ```grader``` with password 'Gr@der1', and granted sudo priveleges
+3. Updated and upgradered current software packages 
+4. Changed SSH port from 22 to 2200
+5. Cofigured Firewall in AWS Lightsail
+6. Generated SSH key pair on local machine(```udacity_key_rsa```), and saved in ```grader```(```.ssh/authorized_keys```)
+7. Configured ```ufw``` Firewall for user ```grader```
+8. Configured timezone to UTC and installed ```ntp``` for better synchronization
+9. Installed ```apache2``` and ```mod-wsgi```
+10. Installed ```git``` and setup global configuration in preparation for cloning Item Catalog repo
+11. Setup ```virtualenv``` for deploying Flask app
+12. Cloned repository in ```virtualenv``` and installed necessary dependencies
+13. Installed ```postgresql```, setup database, and updated Item Catalog application accordingly
+14. Reconfigured ```oauth2``` login credentials for Facebook and Google Plus 
 
 ## Server Instance setup using AWS Lightsail
 

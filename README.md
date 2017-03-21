@@ -7,7 +7,6 @@ and is a fulfillment of the larger FSND program.
 
 * Public IP: http://34.205.104.118
 * SSH Port: 2200
-* ServerAlias: http://ec2-34-205-104-118.us-west-2.compute.amazonaws.com
 
 ## Software installed
 * finger: To display information about server users
